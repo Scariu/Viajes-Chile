@@ -1,4 +1,4 @@
-//Toggle
+//Toggle (1)
 //Card avion
 $(document).ready(function () {
   $("#avion").click(function () {
@@ -18,7 +18,7 @@ $(document).ready(function () {
   });
 });
 
-//SlideToggle
+//SlideToggle (2)
 //Card 1
 $(document).ready(function () {
   $("#img-card-1").click(function () {
@@ -41,5 +41,43 @@ $(document).ready(function () {
 $(document).ready(function () {
   $("#img-card-4").click(function () {
     $("#card-body-4").slideToggle("slow");
+  });
+});
+
+//Animate (3)
+//H2 Presentación
+$(document).ready(function () {
+  $("#h2-quienes-somos").mouseenter(function () {
+    $("#h2-quienes-somos").animate({
+      fontSize: '50px'
+    });
+  }).mouseleave(function () {
+    $(this).animate({
+      fontSize: '30px'
+    });
+  });
+});
+//H2 Destacado
+$(document).ready(function () {
+  $("#h2-destacado").mouseenter(function () {
+    $("#h2-destacado").animate({
+      fontSize: '50px'
+    });
+  }).mouseleave(function () {
+    $(this).animate({
+      fontSize: '30px'
+    });
+  });
+});
+//H2 Contacto
+$(document).ready(function () {
+  $("#h2-contacto").mouseenter(function () {
+    $("#h2-contacto").animate({
+      fontSize: '50px'
+    });
+  }).mouseleave(function () {
+    $(this).animate({
+      fontSize: '30px'
+    });
   });
 });

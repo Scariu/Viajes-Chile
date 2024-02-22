@@ -105,3 +105,7 @@ nav a img {
 .border-bottom {
     border-bottom: var(--gris) solid 1px !important;
 }
+
+h2 {
+    font-size: 30px;
+}
