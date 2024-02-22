@@ -3,6 +3,7 @@
     --negro: #000;
     --celeste-oscuro: #17A2B8;
     --celeste-claro: #56C0E0;
+    --gris: #222222;
 }
 
 
@@ -30,7 +31,7 @@ nav {
 }
 
 nav a img {
-    width: 2.5rem;
+    width: 2rem;
     height: auto;
 }
 
@@ -95,4 +96,8 @@ nav a img {
 
 .size-30 {
     font-size: 30px;
+}
+
+.border-bottom {
+    border-bottom: var(--gris) solid 1px !important;
 }
