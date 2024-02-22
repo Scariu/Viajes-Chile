@@ -87,3 +87,12 @@ nav a img {
     background-color: var(--celeste-oscuro) !important;
     border-color: var(--celeste-oscuro) !important;
 }
+
+.icon-white-footer {
+    color: var(--blanco);
+    font-size: 30px;
+}
+
+.size-30 {
+    font-size: 30px;
+}
