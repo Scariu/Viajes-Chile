@@ -1,5 +1,5 @@
 :root {
-    --blanco:#fff;
+    --blanco: #fff;
     --negro: #000;
     --celeste-oscuro: #17A2B8;
     --celeste-claro: #56C0E0;
@@ -21,6 +21,10 @@ body {
     font-weight: 300;
 }
 
+.weight500 {
+    font-weight: 300;
+}
+
 nav {
     background-color: transparent;
 }
@@ -32,7 +36,7 @@ nav a img {
 
 .white-text {
     color: var(--blanco);
-}   
+}
 
 .font-size16 {
     font-size: 16px;
@@ -77,4 +81,9 @@ nav a img {
 
 .border-light {
     border-radius: 3px !important;
+}
+
+.btn-info {
+    background-color: var(--celeste-oscuro) !important;
+    border-color: var(--celeste-oscuro) !important;
 }
