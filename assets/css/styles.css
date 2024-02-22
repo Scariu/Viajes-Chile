@@ -51,7 +51,7 @@ nav a img {
 }
 
 .card {
-    border-radius: 0% !important;
+    border-radius: 1px !important;
 }
 
 .card-text {
@@ -61,4 +61,20 @@ nav a img {
 .icon-white {
     color: var(--blanco);
     font-size: 30px;
+}
+
+.altura-card {
+    height: 10rem;
+}
+
+.size-16 {
+    font-size: 16px;
+}
+
+.size-18 {
+    font-size: 18px;
+}
+
+.border-light {
+    border-radius: 3px !important;
 }
