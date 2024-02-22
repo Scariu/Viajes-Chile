@@ -13,6 +13,10 @@
     font-family: 'Raleway', sans-serif;
 }
 
+body {
+    background-color: var(--negro);
+}
+
 .weight300 {
     font-weight: 300;
 }
@@ -31,5 +35,30 @@ nav a img {
 }   
 
 .font-size16 {
-font-size: 16px;
+    font-size: 16px;
+}
+
+.bgcolorceleste {
+    background-color: var(--celeste-oscuro);
+}
+
+.bgcolornegro {
+    background-color: var(--negro);
+}
+
+.border-dark {
+    border-color: var(--negro) !important;
+}
+
+.card {
+    border-radius: 0% !important;
+}
+
+.card-text {
+    text-align: justify !important;
+}
+
+.icon-white {
+    color: var(--blanco);
+    font-size: 30px;
 }
