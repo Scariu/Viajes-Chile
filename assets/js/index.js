@@ -81,3 +81,10 @@ $(document).ready(function () {
     });
   });
 });
+
+//Alert
+$(document).ready(function () {
+  $("#enviar-correo").click(function () {
+    alert("El mensaje fue enviado correctamente...");
+  });
+});
