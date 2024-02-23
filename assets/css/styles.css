@@ -4,6 +4,7 @@
     --celeste-oscuro: #17A2B8;
     --celeste-claro: #56C0E0;
     --gris: #222222;
+    --pink: #e83e8c;
 }
 
 body * {
@@ -108,4 +109,10 @@ nav a img {
 
 h2 {
     font-size: 30px;
+}
+
+.bgcolorpink {
+    background-color: var(--pink);
+    background-color: var(--pink) !important;
+    border-color: var(--pink) !important;
 }

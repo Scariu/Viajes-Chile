@@ -82,9 +82,16 @@ $(document).ready(function () {
   });
 });
 
-//Alert
+//Alert (4)
 $(document).ready(function () {
   $("#enviar-correo").click(function () {
     alert("El mensaje fue enviado correctamente...");
+  });
+});
+
+//Cambio color (5)
+$(document).ready(function () {
+  $("#p-footer").click(function () {
+    $("footer, #card-1, #card-2, #card-3, #dest-card-1, #dest-card-2, #dest-card-3, #dest-card-4 ,#enviar-correo").addClass("bgcolorpink");
   });
 });
